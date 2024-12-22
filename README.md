@@ -20,6 +20,9 @@ npm install github-file-manager
 
 - **GitHub repository**: The repository you want to interact with (e.g., `username/repository`).
 - **GitHub Personal Access Token**: You must generate a GitHub personal access token with appropriate permissions. [Create a token](https://github.com/settings/tokens) if you don't have one.
+- **GitHub Repository Permissions**:
+  - **Fine-grained tokens**: Contents(Read and write), Metadata(Read-only), Pull requests(Read and write)
+  - **Tokens (classic)**: repo(checkall)
 
 ### Example
 
