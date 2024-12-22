@@ -1,5 +1,5 @@
 {
-    "name": "github-file-storage",
+    "name": "github-file-manager",
     "version": "1.0.1",
     "description": "A Node.js package for uploading, storing, and managing files on GitHub",
     "main": "lib/GitHubFileStorage.js",
@@ -20,15 +20,21 @@
         "archiver": "^5.3.2",
         "axios": "^1.7.9"
     },
+    "files": [
+        "lib",
+        "README.md",
+        "LICENSE.txt",
+        "package.json"
+    ],
     "engines": {
         "node": ">=14.0.0"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/fusiontechies/github-file-storage.git"
+        "url": "git+https://github.com/fusiontechies/github-file-manager.git"
     },
     "bugs": {
-        "url": "https://github.com/fusiontechies/github-file-storage/issues"
+        "url": "https://github.com/fusiontechies/github-file-manager/issues"
     },
-    "homepage": "https://github.com/fusiontechies/github-file-storage#readme"
+    "homepage": "https://github.com/fusiontechies/github-file-manager#readme"
 }

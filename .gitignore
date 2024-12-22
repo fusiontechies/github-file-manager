@@ -1,0 +1,16 @@
+# Ignore the entire node_modules directory
+node_modules/
+
+# Ignore tests and logs
+test/
+tests/
+npm-debug.log
+
+# Ignore build artifacts
+dist/
+build/
+
+# Ignore any other irrelevant files
+.idea/
+.vscode/
+.git/

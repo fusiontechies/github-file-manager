@@ -11,7 +11,7 @@ A Node.js library for interacting with GitHub repositories to manage file storag
 To install the package, use npm:
 
 ```bash
-npm install github-file-storage
+npm install github-file-manager
 ```
 
 ## Usage
@@ -26,7 +26,7 @@ npm install github-file-storage
 #### 1. **Creating an instance**
 
 ```javascript
-const GitHubFileStorage = require('github-file-storage');
+const GitHubFileStorage = require('github-file-manager');
 const storage = new GitHubFileStorage('username/repository', 'your-github-token');
 ```
 
@@ -164,7 +164,7 @@ Returns an object with the content (Base64) and filename.
 Install the package with npm:
 
 ```bash
-npm install github-file-storage
+npm install github-file-manager
 ```
 
 ## Requirements
